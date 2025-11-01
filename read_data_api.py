@@ -2,7 +2,7 @@ import requests
 import pandas as pd 
 import os
 
-token = os.getenv('"API_TOKEN')
+token = os.getenv("API_TOKEN")
 print(f'Token : {token}')
 if token=="1234abcd":
     print("correct")
